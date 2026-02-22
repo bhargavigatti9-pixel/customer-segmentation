@@ -14,6 +14,20 @@ to create targeted marketing strategies and increase revenue.
 - Found **6 VIP customers** generating avg £182,182 each!
 - **1,062 lost customers** who need win-back campaigns
 
+## Visualizations
+
+### Customer Segments Distribution
+![Customer Segments](outputs/figures/customer_segments.png)
+
+### Revenue by Segment
+![Revenue by Segment](outputs/figures/revenue_by_segment.png)
+
+### RFM Heatmap
+![RFM Heatmap](outputs/figures/rfm_heatmap.png)
+
+### K-Means Clusters
+![KMeans Clusters](outputs/figures/kmeans_clusters.png)
+
 ##  Business Recommendations
 | Segment | Action |
 |---------|--------|
@@ -43,3 +57,9 @@ customer_segmentation/
 1. Clone this repository
 2. Install requirements: `pip install -r requirements.txt`
 3. Run notebooks in order (01 → 05)
+
+
+## About This Project
+This is a personal project I built to demonstrate real-world 
+data analysis skills. The entire pipeline — from raw data 
+to business insights — was built from scratch using Python.

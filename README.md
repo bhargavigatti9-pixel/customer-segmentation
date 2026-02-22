@@ -13,8 +13,22 @@ Most businesses treat all customers the same way. This project identifies which 
 - Analyzed **541,909 transactions** from 4,320 unique customers
 - Identified **6 RFM segments** based on buying behavior
 - Applied **K-Means clustering** to find 4 natural customer groups
-- Found **6 VIP customers** generating avg £182,182 each!
+- Found **6 VIP customers** generating avg £182,182 each! (validated after removing all cancelled/returned invoices)
 - **1,062 lost customers** who need win-back campaigns
+
+
+##  Methodology
+
+**Feature Scaling:** Applied StandardScaler before K-Means 
+to ensure Recency, Frequency and Monetary have equal weight.
+
+**Optimal Clusters:** K=4 chosen using Elbow Method + 
+Silhouette Score analysis. Silhouette score peaked at k=4 
+giving best defined clusters.
+
+**Outlier Handling:** Removed cancelled orders (negative 
+quantity), missing CustomerIDs and negative prices before 
+analysis.
 
 ## Visualizations
 

@@ -1,11 +1,9 @@
 # Customer Segmentation Analysis
 ## Project Overview
-End-to-end customer segmentation analysis using RFM Analysis 
-and K-Means Clustering on 500,000+ real e-commerce transactions.
+I analyzed 500,000+ real transactions to understand customer buying behavior and help businesses make smarter marketing decisions
 
 ## Business Problem
-A UK online retailer needed to understand their customer base 
-to create targeted marketing strategies and increase revenue.
+Most businesses treat all customers the same way. This project identifies which customers are VIPs, which are at risk of leaving, and which are already lost — so marketing teams can take the right action for each group
 
 ##  Key Findings
 - Analyzed **541,909 transactions** from 4,320 unique customers

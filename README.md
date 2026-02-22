@@ -1,6 +1,10 @@
 # Customer Segmentation Analysis
 ## Project Overview
-I analyzed 500,000+ real transactions to understand customer buying behavior and help businesses make smarter marketing decisions
+I analyzed 500,000+ real transactions to understand customer 
+buying behavior and help businesses make smarter marketing 
+decisions. This project identifies VIP customers, at-risk 
+customers, and lost customers so marketing teams can take 
+the right action for each group.
 
 ## Business Problem
 Most businesses treat all customers the same way. This project identifies which customers are VIPs, which are at risk of leaving, and which are already lost — so marketing teams can take the right action for each group
@@ -26,13 +30,15 @@ Most businesses treat all customers the same way. This project identifies which 
 ### K-Means Clusters
 ![KMeans Clusters](outputs/figures/kmeans_clusters.png)
 
-##  Business Recommendations
-| Segment | Action |
-|---------|--------|
-| VIP Champions | Assign personal account manager |
-| Loyal High Spenders | Exclusive loyalty rewards |
-| Regular Customers | Upsell campaigns |
-| Lost Customers | Win-back email with 20% discount |
+## Business Recommendations
+
+| Segment | Customers | Strategy | Expected Impact |
+|---------|-----------|----------|-----------------|
+| VIP Champions | 6 | Personal account manager + early access to new products | Retain £182K avg spend |
+| Loyal High Spenders | 110 | Exclusive membership + free shipping | Increase order frequency |
+| Regular Customers | 3,142 | Bundle offers + loyalty points | Increase basket size |
+| Lost Customers | 1,062 | Win-back email with 20% discount after 6 months inactive | Recover 10-15% customers |
+
 
 ## Tools Used
 - Python, Pandas, NumPy
